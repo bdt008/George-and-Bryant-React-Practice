@@ -1,9 +1,8 @@
+// import "./Showcase.js";
+import Showcase from "./Showcase";
+
 function App() {
-  return (
-    <div>
-      <h1>App Component Example</h1>
-    </div>
-  );
+  return <div>{Showcase()}</div>;
 }
 
 export default App;
